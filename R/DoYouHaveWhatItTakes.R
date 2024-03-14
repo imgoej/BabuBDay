@@ -22,7 +22,7 @@ DoYouHaveWhatItTakes <- function() {
   print(p)
 
   # intro
-  cat("\nDette er din sidste prøvelse kære lille Babu (som han jo så kærligt kalder dig). Jeg regnede ikke med at du ville nå så langt. Tillykke. Men hvorfor føler jeg mig stadig så selvsikker? I denne prøvelse skal vi se om hvor godt du i virkeligheden kender Frede...")
+  cat("\nDette er din sidste prøvelse kære lille Babu (som han jo så kærligt kalder dig). Jeg regnede ikke med at du ville nå så langt. Tillykke. Men hvorfor føler jeg mig stadig så selvsikker? I denne prøvelse skal vi se hvor godt du i virkeligheden kender Frede...")
   cat("\n\nNu vil der komme en lille række spørgsmål og du får 1 point per rigtigt svar. 6/10 og du vil få kodeordet til at vække Frede!\nSkriv dit svar i kommandolinjen og tryk <ENTER>.")
 
   # Spørgsmål 1
@@ -38,7 +38,7 @@ DoYouHaveWhatItTakes <- function() {
       theme_void()
     print(p)
     count <- count + 1
-    cat("\nNu fik jeg jo nyt tøj på bevidstløse Frede. Jeg må jo sige at emphasis on \"above\".\n +1 point.")
+    cat("\nNu fik jeg jo nyt tøj på bevidstløse Frede. Jeg må jo sige at emphasis er on \"above\".\n +1 point.")
 
   } else {
     cat("\f")
