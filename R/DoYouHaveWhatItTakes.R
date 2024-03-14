@@ -16,7 +16,7 @@ DoYouHaveWhatItTakes <- function() {
 
   # display pick
   pic <- imager::load.image(system.file("data/sawman.jpg",package = "BabuBDay"))
-  p <- ggplot(mapping = aes(1:10, 1:10)) +
+  p <- ggplot2::ggplot(mapping = aes(1:10, 1:10)) +
     annotation_raster(pic, xmin = -Inf, xmax = Inf, ymin = -Inf, ymax = Inf) +
     theme_void()
   print(p)
@@ -33,7 +33,7 @@ DoYouHaveWhatItTakes <- function() {
   if(answer == 3) {
     cat("\f")
     pic <- imager::load.image(system.file("data/happy1.jpg",package = "BabuBDay"))
-    p <- ggplot(mapping = aes(1:10, 1:10)) +
+    p <- ggplot2::ggplot(mapping = aes(1:10, 1:10)) +
       annotation_raster(pic, xmin = -Inf, xmax = Inf, ymin = -Inf, ymax = Inf) +
       theme_void()
     print(p)
@@ -43,7 +43,7 @@ DoYouHaveWhatItTakes <- function() {
   } else {
     cat("\f")
     pic <- imager::load.image(system.file("data/angry1.jpg",package = "BabuBDay"))
-    p <- ggplot(mapping = aes(1:10, 1:10)) +
+    p <- ggplot2::ggplot(mapping = aes(1:10, 1:10)) +
       annotation_raster(pic, xmin = -Inf, xmax = Inf, ymin = -Inf, ymax = Inf) +
       theme_void()
     print(p)
@@ -58,7 +58,7 @@ DoYouHaveWhatItTakes <- function() {
   if(answer == 198) {
     cat("\f")
     pic <- imager::load.image(system.file("data/happy2.jpg",package = "BabuBDay"))
-    p <- ggplot(mapping = aes(1:10, 1:10)) +
+    p <- ggplot2::ggplot(mapping = aes(1:10, 1:10)) +
       annotation_raster(pic, xmin = -Inf, xmax = Inf, ymin = -Inf, ymax = Inf) +
       theme_void()
     print(p)
