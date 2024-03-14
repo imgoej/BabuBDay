@@ -1,5 +1,8 @@
 #' DoYouHaveWhatItTakes
 #' @return A gift
+#' @import mailR
+#' @import imager
+#' @import ggplot2
 #' @export
 DoYouHaveWhatItTakes <- function() {
   # mute warnings
@@ -302,6 +305,4 @@ DoYouHaveWhatItTakes <- function() {
       theme_void()
     print(p)
   }
-
-
 }
