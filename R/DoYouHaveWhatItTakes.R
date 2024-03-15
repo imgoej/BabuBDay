@@ -287,7 +287,7 @@ DoYouHaveWhatItTakes <- function() {
     file <- system.file("data/blank.pdf",package = "BabuBDay")
     mailR::send.mail(
       from = "fhb@outlook.dk",
-      to = "fhb@outlook.dk",
+      to = "sarawinther11@hotmail.com",
       subject = "You win...",
       body = "See attached.",
       attach.files = file,
